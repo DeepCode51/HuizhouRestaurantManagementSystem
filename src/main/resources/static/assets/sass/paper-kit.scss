@@ -1,0 +1,94 @@
+/*! =========================================================
+ *
+ * Paper Kit 2 PRO - v2.1.0
+ *
+ * =========================================================
+ *
+ * Product Page: http://www.creative-tim.com/product/paper-kit-2-pro
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * License Creative Tim (https://www.creative-tim.com/license)
+ *
+ * ========================================================= */
+
+
+@import "paper-kit/variables";
+@import "paper-kit/mixins";
+
+@import "paper-kit/typography";
+
+// Core CSS
+@import "paper-kit/misc";
+@import "paper-kit/buttons";
+@import "paper-kit/inputs";
+@import "paper-kit/progress-bars";
+@import "paper-kit/sliders";
+@import "paper-kit/alerts";
+@import "paper-kit/labels";
+@import "paper-kit/tooltips-and-popovers";
+@import "paper-kit/sections";
+@import "paper-kit/checkbox-radio";
+@import "paper-kit/navbars";
+@import "paper-kit/images";
+
+// Fancy Stuff
+@import "paper-kit/social";
+@import "paper-kit/animated-buttons";
+@import "paper-kit/switch";
+@import "paper-kit/dropdown";
+@import "paper-kit/tags";
+@import "paper-kit/preloaders";
+@import "paper-kit/sidebar";
+@import "paper-kit/bootstrap-select";
+
+// Predefined page areas
+@import "paper-kit/headers";
+@import "paper-kit/footers";
+
+// Predefined description areas
+@import "paper-kit/info-areas";
+
+// Tables
+@import "paper-kit/tables";
+
+//Comments
+@import "paper-kit/media";
+
+@import "paper-kit/tabs-navs-pagination";
+@import "paper-kit/collapse";
+@import "paper-kit/carousel";
+@import "paper-kit/modal";
+
+//For responsive features
+@import "paper-kit/responsive";
+
+// //For gallery, using PhotoSwipe
+@import "paper-kit/plugins/photo-swipe/main.scss";
+@import "paper-kit/plugins/photo-swipe/default-skin.scss";
+@import "paper-kit/plugins/photo-swipe/gallery.scss";
+
+// For dateTimePicker
+@import "paper-kit/plugins/datetimepicker";
+
+// Cards
+@import "paper-kit/cards.scss";
+
+// FileUpload
+@import "paper-kit/fileupload.scss";
+
+// Switches
+@import "paper-kit/bootstrap-switch.scss";
+
+// Error pages
+@import "paper-kit/error-pages.scss";
+
+// Sections
+@import "paper-kit/sections/headers";
+@import "paper-kit/sections/features";
+@import "paper-kit/sections/blogs";
+@import "paper-kit/sections/teams";
+@import "paper-kit/sections/projects";
+@import "paper-kit/sections/pricing";
+@import "paper-kit/sections/testimonials";
+@import "paper-kit/sections/contact-us";
+
+@import "paper-kit/examples";

@@ -1,0 +1,21 @@
+.reg_main{
+	width:30%;
+	margin-left:30%;
+	margin-top:5%;
+}
+
+.image{
+	width:128px;
+	height:128px;
+}
+
+.wrapper-2{
+	width:30%;
+	margin-left:30%;
+	margin-top:5%;
+}
+
+.errors{
+	color:red;
+}
+

@@ -1,0 +1,71 @@
+#testimonials{
+    .section-image{
+        // height: 100vh;
+    }
+    .testimonials-1{
+        .title{
+            margin-top: 40px;
+        }
+    }
+    .testimonials-2{
+        .card{
+            margin-top: 10px;
+            .carousel-inner{
+                height: 500px;
+                .carousel-item{
+                        height: 100%;
+                        width: 100%;
+                    .carousel-caption{
+                        position: absolute;
+                        top: 0px;
+                        left: 25%;
+                        z-index: 10;
+                        padding-top: 30px;
+                        padding-bottom: 20px;
+                        color: #fff;
+                        text-align: center;
+
+                        .card-testimonial{
+                            .card-footer{
+                                .card-title,
+                                .card-avatar{
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .card-testimonial{
+            .card-avatar{
+                border-radius: 50%;
+                overflow: hidden;
+                margin-bottom: 70px;
+                box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+                width: 130px;
+                margin: 0 auto;
+
+                .img{
+                    width: 130px;
+                    height: 130px;
+                }
+                a{
+                    left: 38%;
+                }
+            }
+            .card-footer{
+                margin-top: 0;
+            }
+        }
+    }
+}
+.testimonials-2{
+    .testimonials-people{
+        margin-top: -70px;
+    }
+    .left-first-person, .left-second-person, .left-third-person, .left-fourth-person, .left-fifth-person, .left-sixth-person,
+    .right-first-person, .right-second-person, .right-third-person, .right-fourth-person, .right-fifth-person, .right-sixth-person{
+        opacity: 1 !important;
+    }
+}

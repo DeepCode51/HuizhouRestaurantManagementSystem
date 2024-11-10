@@ -1,0 +1,67 @@
+body{
+    overflow-x:hidden;
+    width: 100%;
+}
+.background-img{
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+    .filter:after{
+        background-color: rgba(0, 0, 0, 0.5);
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    .social-buttons{
+        .btn:nth-child(2){
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    .title{
+        margin: 0 auto;
+        margin-top: 15%;
+        margin-bottom: 30px;
+        font-size: 10em;
+        color: #FFFFFF;
+        z-index: 2;
+        text-align: center;
+    }
+    .card{
+        &.card-just-text{
+            .card-body{
+                padding: 50px 30px;
+            }
+        }
+        .icon{
+            padding: 0;
+            margin-top: 30px;
+            margin-bottom: -30px;
+            i{
+                height: 90px;
+                width: 90px;
+                font-size: 35px;
+            }
+        }
+        .card-text{
+            padding-bottom: 0;
+            margin-bottom: -20px;
+        }
+    }
+
+    .discover-pages{
+        margin: 0 auto;
+        color: #fff;
+        z-index: 2;
+        padding-bottom: 20px;
+    }
+    .error-msg{
+        text-align: center
+    }
+}

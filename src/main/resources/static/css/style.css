@@ -1,0 +1,167 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(55,55,55,0.3);
+    font-family: 'Black Han Sans', sans-serif;   
+}
+
+#top_5{
+	margin-left:20%;
+	font-family: 'Lobster', cursive;
+}
+
+.mySlides{
+	min-height:70vh;
+	max-height:999px;
+}
+.image{
+	width:150px;
+	height:150px;
+}
+
+
+.middle_wrapper{
+	display:flex;
+}
+
+#inner_box{
+	height:350px;
+	margin-top:10%;
+	text-align:center;
+	
+}
+#fork{
+	width:135px;
+	height:140px;
+	margin-left:70px;
+}
+#fork_box{
+	margin-top:30%;
+	margin-left:10%;
+}
+
+#add_button{
+	margin-left:80px;
+}
+
+#other{
+	font-family: 'Lobster', cursive;
+	margin-left:45px;
+}
+
+#rate{
+	margin-left:60%;
+}
+
+.stars{
+	color:#ffc107;
+}
+.tag {
+  display: inline-block;
+  margin: 0 5px 10px;
+  overflow: hidden;
+}
+.tag-label {
+  float: left;
+  background: linear-gradient(#fff, #F0F0F0);
+  border: 1px solid #D4D4D4;
+  border-bottom-color: #A1A1A1;
+  border-right-color: #A43E00;
+  border-radius: 3px 0 0 3px;
+  padding: 0 9px 0 7px;
+  font: bold 12px/22px 'Helvetica Neue','Arial',sans-serif;
+  color: #444;
+  position: relative;
+}
+.tag-label:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-left: 1px solid #A43E00;
+  border-radius: 50%;
+  background: #F25D00;
+  position: absolute;
+  right: -4px;
+  top: 8px;
+  z-index: 1;
+}
+.tag .count {
+  float: left;
+  margin-top: 1px;
+  height: 20px;
+  border-top: 1px solid #DC5400;
+  border-bottom: 1px solid #DC5400;
+  background: linear-gradient(#F46E00, #EC5400);
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 #FD9D61;
+  position: relative;
+  max-width: 3px;
+  transition: max-width 0.3s;
+}
+.tag:hover .count {
+  max-width: 50px;
+}
+.tag .count:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-right: 1px solid #DC5400;
+}
+.tag .count:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -3px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  
+  /* Needs to be the background color */
+  background: #333;
+  box-shadow: 0 6px 0 #333, 0 11px 0 #333, 0 16px 0 #333;
+}
+.tag .count-value {
+  margin: 1px 4px 0 0;
+  padding: 0 3px 0 5px;
+  border-top: 1px dashed #D74A02;
+  border-bottom: 1px dashed #F57A36;
+  font: bold 12px/18px 'Helvetica Neue','Arial',sans-serif;
+  color: #fff;
+  height: 17px;
+  position: relative;
+  float: right;
+}
+.tag .count-value:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  border-top: 1px dashed #F87E31;
+}
+.tag .count-value:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  border-bottom: 1px dashed #D64901;
+}
+.allRecipes{
+	margin-right:30px;
+}
+
+.media-content{
+	white-space: nowrap; 
+    width: 250px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
